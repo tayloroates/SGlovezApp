@@ -1,38 +1,7 @@
 namespace SilverGlovezApp.Controllers {
 
     export class HomeController {
-        public message = 'Hello from the home page!';
-        public PlayerResource;
-        public TeamResource;
-        public team;
-        public teams;
-        public player;
-        public players;
-
-        public getTeams() {
-            this.teams = this.TeamResource.query();
-        }
-
-        public getPlayers() {
-            this.player = this.PlayerResource.query();
-        }
-        public save() {
-            this.PlayerResource.save(this.player).$promise.then(() => {
-                this.player = null;
-            });
-        }
-
-        public addPlayer() {
-            this.PlayerResource.save(this.player).$promise.then(() =>
-            { this.addPlayer = null });
-        }
-        constructor($resource: ng.resource.IResourceService) {
-            this.TeamResource = $resource("/api/teams/:id");
-            this.PlayerResource = $resource("/api/player/:id")
-            this.getTeams();
-            this.getPlayers();
-
-        }
+        public message = 'Hello from the home page!';                
     }
     export class ManageController {
         public message = 'Hello from the home page!';
@@ -48,18 +17,15 @@ namespace SilverGlovezApp.Controllers {
         }
         
         public getPlayers() {
-            this.player = this.PlayerResource.query();
+            this.players = this.PlayerResource.query();
         }
         public save() {
             this.PlayerResource.save(this.player).$promise.then(() => {
                 this.player = null;
+                this.getPlayers();
             });
         }
-        
-        public addPlayer() {
-            this.PlayerResource.save(this.player).$promise.then(() =>
-            { this.addPlayer = null });
-        }
+       
         constructor($resource: ng.resource.IResourceService) {
             this.TeamResource = $resource("/api/teams/:id");
             this.PlayerResource = $resource("/api/player/:id")
