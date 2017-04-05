@@ -1,10 +1,85 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿<form name="SilverGlovezApp" novalidate ng-submit="controller.add()">
+    <div>
+        <label>
+            First Name:
+            <input name="fname" ng-model="controller.fname" type="text" required />
+            <span ng-show="SilverGlovezApp.fname.$touched && SilverGlovezApp.fname.$error.required" class="error">
+                First Name is required.
+            </span>
+        </label>
+    </div>
+    <div>
+        <label>
+            Last Name:
+            <input name="lname" ng-model="controller.lname" type="text" required />
+            <span ng-show="SilverGlovezApp.lname.$touched && SilverGlovezApp.lname.$error.required" class="error">
+                Last Name is required.
+            </span>
+        </label>
+    </div>
+    <div>
+        <label>
+            Age:
+            <input name="age" ng-model="controller.age" type="number" required />
+            <span ng-show="SilverGlovezApp.age.$touched && SilverGlovezApp.age.$error.required" class="error">
+                Age is required.
+            </span>
+        </label>
+    </div>
+    <div>
+        <label>
+            High School:
+            <input name="school" ng-model="controller.school" type="text" required />
+            <span ng-show="SilverGlovezApp.school.$touched && SilverGlovezApp.school.$error.required" class="error">
+                High School is required.
+            </span>
+        </label>
+    </div>
+    <div>
+        <label>
+            E-mail:
+            <input name="email" ng-model="controller.email" type="text" required />
+            <span ng-show="SilverGlovezApp.email.$touched && SilverGlovezApp.email.$error.required" class="error">
+                E-mail is required.
+            </span>
+        </label>
+    </div>
+    <div>
+        <label>
+            Shirt Size:
+            <select name="type" ng-model="controller.type" required>
+                <option value="X Small">X Small</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="X Large">X Large</option>
+            </select>
+            <span ng-show="EForm.type.$touched && EForm.type.$error.required" class="error">
+                You have to choose a shirt size.
+            </span>
+        </label>
 
-</body>
-</html>
+
+        <label>
+            Position:
+            <select name="type" ng-model="controller.pay" required>
+                <option value="1st base">1st base</option>
+                <option value="2nd base">2nd base</option>
+                <option value="3rd base">3rd base</option>
+                <option value="Short Stop">Short Stop</option>
+                <option value="Left Field">Left Field</option>
+                <option value="Center Field">Center Field</option>
+                <option value="Right Field">Right Field</option>
+                <option value="Pitcher">Pitcher</option>
+                <option value="Catcher">Catcher</option>
+            </select>
+            <span ng-show="EForm.pay.$touched && EForm.pay.$error.required" class="error">
+                You have to choose a position.
+            </span>
+        </label>
+
+    </div>
+    <div>
+        <input type="submit" value="Add" />
+    </div>
+</form>

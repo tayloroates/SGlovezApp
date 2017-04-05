@@ -80,6 +80,23 @@ namespace SilverGlovezApp.Controllers {
         }
     }
 
+    export class FormController {
+     
+        public fname;
+        public lname;
+        public age;
+        public school;
+        public email;
+        public position;
+        public size;
+
+        public add() {
+            console.log(`${this.fname} ${this.lname} ${this.age} ${this.school}
+            ${this.email} ${this.position} ${this.size}`);
+        }
+       
+    }
+    angular.module('SilverGlovezApp').controller('FormController', FormController);
 
     export class AboutController {
         public message = 'Hello from the about page!';
@@ -91,4 +108,5 @@ namespace SilverGlovezApp.Controllers {
     export class ContactController {
         public message = 'Hello from the about page!';
     }
+
 }

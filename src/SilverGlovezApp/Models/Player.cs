@@ -12,6 +12,7 @@ namespace SilverGlovezApp.Models
         public string LastName { get; set; }
         public string HighSchool { get; set; }
         public int Age { get; set; }
+        public string Position { get; set; }
         public string Height { get; set; }
         public int Weight { get; set; }
     }
