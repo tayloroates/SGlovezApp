@@ -1,60 +1,10 @@
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
-C:\Users\tayga\OneDrive\Documents\Visual Studio 2015\Projects\SilverGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\app.js.map
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\accountService.js.map
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\services\services.js.map
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\accountController.js.map
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js
+C:\projects\Students\SGlovezApp\src\SilverGlovezApp\wwwroot\ngApp\controllers\controllers.js.map
