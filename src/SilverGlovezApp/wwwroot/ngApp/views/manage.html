@@ -1,0 +1,48 @@
+﻿<h2>Input Player</h2>
+<form ng-submit="controller.save()">
+    <div></div>
+    <h3>First Name:</h3>
+    <input ng-model="controller.player.firstName" />
+    <div>
+    </div>
+    <div></div>
+    <h3>Last Name:</h3>
+    <input ng-model="controller.player.lastName" />
+    <div>
+    </div>
+    <div></div>
+    <h3>High School:</h3>
+    <input ng-model="controller.player.highSchool" />
+    <div>
+    </div>
+    <div></div>
+    <h3>Age:</h3>
+    <input type="number" ng-model="controller.player.age" />
+    <div>
+    </div>
+    <div></div>
+    <h3>Height:</h3>
+    <input ng-model="controller.player.height" />
+    <div>
+    </div>
+    <div></div>
+    <h3>Weight:</h3>
+    <input type="number" ng-model="controller.player.weight" />
+    <div>
+    </div>
+    <input type="submit" value="Add" />
+</form>
+<div>
+   
+
+    <ul>
+        <li ng-repeat="p in controller.player">
+            {{p.lastName}}, {{p.firstName}}
+            <ul>
+                <li ng-repeat="b in p.player">
+
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
