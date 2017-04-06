@@ -46,7 +46,7 @@ namespace SilverGlovezApp.Controllers {
         }
     }
 
-    export class FormController {
+    export class SignupController {
      
         public fname;
         public lname;
@@ -57,12 +57,12 @@ namespace SilverGlovezApp.Controllers {
         public size;
 
         public add() {
-            console.log(`${this.fname} ${this.lname} ${this.age} ${this.school}
-            ${this.email} ${this.position} ${this.size}`);
+            console.log(`Name: ${this.fname} ${this.lname} Age: ${this.age} High School: ${this.school}
+           Email: ${this.email} Position: ${this.position} Shirt Size: ${this.size}`);
         }
        
     }
-    angular.module('SilverGlovezApp').controller('FormController', FormController);
+    angular.module('SilverGlovezApp').controller('SignupController', SignupController);
 
     export class AboutController {
         public message = 'Hello from the about page!';

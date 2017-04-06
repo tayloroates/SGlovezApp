@@ -47,14 +47,14 @@
     <div>
         <label>
             Shirt Size:
-            <select name="type" ng-model="controller.type" required>
-                <option value="X Small">X Small</option>
-                <option value="Small">Small</option>
-                <option value="Medium">Medium</option>
-                <option value="Large">Large</option>
-                <option value="X Large">X Large</option>
+            <select name="size" ng-model="controller.size" required>
+                <option>X Small</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>X Large</option>
             </select>
-            <span ng-show="EForm.type.$touched && EForm.type.$error.required" class="error">
+            <span ng-show="SilverGlovezApp.size.$touched && SilverGlovezApp.size.$error.required" class="error">
                 You have to choose a shirt size.
             </span>
         </label>
@@ -62,24 +62,24 @@
 
         <label>
             Position:
-            <select name="type" ng-model="controller.pay" required>
-                <option value="1st base">1st base</option>
-                <option value="2nd base">2nd base</option>
-                <option value="3rd base">3rd base</option>
-                <option value="Short Stop">Short Stop</option>
-                <option value="Left Field">Left Field</option>
-                <option value="Center Field">Center Field</option>
-                <option value="Right Field">Right Field</option>
-                <option value="Pitcher">Pitcher</option>
-                <option value="Catcher">Catcher</option>
+            <select name="position" ng-model="controller.position" required>
+                <option>1st base</option>
+                <option>2nd base</option>
+                <option>3rd base</option>
+                <option>Short Stop</option>
+                <option>Left Field</option>
+                <option>Center Field</option>
+                <option>Right Field</option>
+                <option>Pitcher</option>
+                <option>Catcher</option>
             </select>
-            <span ng-show="EForm.pay.$touched && EForm.pay.$error.required" class="error">
+            <span ng-show="SilverGlovezApp.position.$touched && SilverGlovezApp.position.$error.required" class="error">
                 You have to choose a position.
             </span>
         </label>
 
     </div>
     <div>
-        <input type="submit" value="Add" />
+        <input type="submit" value="Submit" />
     </div>
 </form>

@@ -1,28 +1,51 @@
 <html ng-app="SilverGlovezApp">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SilverGlovezApp</title>
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
     <base href="/" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link href="carousel.css" rel="stylesheet">
 </head>
 <body ng-controller="AccountController as account">
-    <div class="container">
-        <h1>SilverGlovezApp</h1>
-        <div>
-          <a href="/">Home</a> /
-           <a href="/about">About</a>
-            / <a href="/contact">Contact</a> 
-          /
-           <a href="/login" ng-show="!account.isLoggedIn()">Login</a>
-          /  <a href="/register" ng-show="!account.isLoggedIn()">Register</a>
-           <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a>
-           <div ng-show="account.isLoggedIn()">
-               [{{account.getUserName()}}]
-           </div> 
-        </div>
-        <a href="/apply" ng-show="account.isLoggedIn()">Apply</a>
-        <a href="/manage" ng-show="account.getClaim('IsAdmin') && account.isLoggedIn()">Manage</a>
-            <hr />
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">Silver Glovez</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/signup">Sign Up</a></li>
+                            <li><a href="/login" ng-show="!account.isLoggedIn()">Login</a></li>
+                            <li><a href="/manage" ng-show="account.getClaim('IsAdmin') && account.isLoggedIn()">Manage</a></li>
+                            <li><a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    
+       
+       
+            
 
             <ui-view></ui-view>
         </div>
@@ -34,7 +57,13 @@
     <script src="/bower_components/angular-touch/angular-touch.js"></script>
     <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="~/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        
     <!-- App Files-->
     <script src="/ngapp/app.js"></script>
     <script src="/ngapp/controllers/controllers.js"></script>

@@ -67,6 +67,13 @@ namespace SilverGlovezApp {
                     requiresAuthentication: true
                 }
             })
+            .state('signup', {
+                url: '/signup',
+                templateUrl: '/ngApp/views/signup.html',
+                controller: SilverGlovezApp.Controllers.SignupController,
+                controllerAs: 'controller'
+               
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
