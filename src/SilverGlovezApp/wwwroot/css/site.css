@@ -17,22 +17,34 @@ textarea {
     max-width: 280px;
 }
 
-/* Carousel */
-.carousel-caption {
-    z-index: 10 !important;
-}
-
-
-
-
-
-    .carousel-caption p {
-        font-size: 20px;
-        line-height: 1.4;
-    }
-
+/*
 @media (min-width: 768px) {
     .carousel-caption {
         z-index: 10 !important;
     }
+}*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {  
+  /*max-width:1200px; THIS IS OPTIONAL (ANY SIZE YOU LIKE)*/
+  margin:0 auto 60px;
 }
+/* Declare heights because of positioning of img element */
+
+.carousel .item {   
+    width:100%;
+    height:auto;
+}
+.carousel-inner > .item > img {
+  min-width:100%;
+  height:auto;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
