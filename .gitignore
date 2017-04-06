@@ -56,3 +56,11 @@ src/SilverGlovezApp/obj/Debug/net452/.IncrementalCache
 src/SilverGlovezApp/obj/Debug/net452/dotnet-compile.rsp
 *.txt
 src/SilverGlovezApp/Properties/launchSettings.json
+.vs/config/applicationhost.config
+*.exe
+src/SilverGlovezApp/bin/Debug/net452/SilverGlovezApp.pdb
+*.exe
+src/SilverGlovezApp/bin/Debug/net452/win7-x64/SilverGlovezApp.pdb
+*.IncrementalCache
+src/SilverGlovezApp/obj/Debug/net452/dotnet-compile-csc.rsp
+src/SilverGlovezApp/obj/Debug/TypeScriptCompilerOutput.txt
