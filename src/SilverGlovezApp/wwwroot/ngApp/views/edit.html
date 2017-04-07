@@ -1,0 +1,42 @@
+﻿<h2>Edit Player</h2>
+<form ng-submit="controller.editPlayer()">
+<div>
+<label>First Name:</label>
+<input value="{{controller.playerToEdit.firstName}}" id="firstName" ng-model="controller.playerToEdit.firstName" />
+    </div>
+<div>
+    <label>Last Name:</label>
+    <input value="{{controller.playerToEdit.lastName}}" id="lastName" ng-model="controller.playerToEdit.lastName" />
+</div>
+<div>
+    <label>High School:</label>
+    <input value="{{controller.playerToEdit.highSchool}}" ng-model="controller.playerToEdit.highSchool" />
+</div>
+<div>
+    <label>Age:</label>
+    <input value="{{controller.playerToEdit.age}}" type="number" ng-model="controller.playerToEdit.age" />
+</div>
+<div>
+    <label>Height:</label>
+    <input  value="{{controller.playerToEdit.height}}" ng-model="controller.playerToEdit.height" />
+</div>
+<div>
+    <label>Weight:</label>
+    <input  value="{{controller.playerToEdit.weight}}" type="number" ng-model="controller.playerToEdit.weight" />
+</div>
+<div>
+    <label> Position:</label>
+    <select name="position" ng-model="controller.playerToEdit.position">
+        <option value="1b">1st base</option>
+        <option value="2b">2nd base</option>
+        <option value="3b">3rd base</option>
+        <option value="ss">Short Stop</option>
+        <option value="lf">Left Field</option>
+        <option value="cf">Center Field</option>
+        <option value="rf">Right Field</option>
+        <option value="p">Pitcher</option>
+        <option value="c">Catcher</option>
+    </select>
+</div>
+    <input type="submit" value="Save"/>
+    </form>

@@ -1,5 +1,5 @@
 ﻿<h2>Input Player</h2>
-<form ng-submit="controller.save()">
+<form ng-submit="controller.savePlayer()">
     <div></div>
     <h3>Team:</h3>
     <select name="team" ng-model="controller.player.team" required>
@@ -28,7 +28,17 @@
         <div></div>
         <div></div>
         <h3>Position:</h3>
-        <input ng-model="controller.player.position" />
+        <select name="position" ng-model="controller.player.position" required>
+        <option>1st base</option>
+        <option>2nd base</option>
+        <option>3rd base</option>
+        <option>Short Stop</option>
+        <option>Left Field</option>
+        <option>Center Field</option>
+        <option>Right Field</option>
+        <option>Pitcher</option>
+        <option>Catcher</option>
+    </select>
         <div>
         </div>
         <h3>Height:</h3>
@@ -48,11 +58,8 @@
     <ul>
         <li ng-repeat="p in controller.players">
             {{p.lastName}}, {{p.firstName}}
-            <ul>
-                <li ng-repeat="b in p.players">
-
-                </li>
-            </ul>
-        </li>
+            <a ui-sref="edit({id: p.id})">edit</a>
+          <a ui-sref="delete({id: p.id})">delete</a>
+</li>
     </ul>
 </div>

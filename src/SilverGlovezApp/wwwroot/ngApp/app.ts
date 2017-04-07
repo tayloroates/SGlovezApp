@@ -44,7 +44,7 @@ namespace SilverGlovezApp {
                 controllerAs: 'controller'
             })
             .state('contact', {
-                url: '/conact',
+                url: '/contact',
                 templateUrl: '/ngApp/views/contact.html',
                 controller: SilverGlovezApp.Controllers.ContactController,
                 controllerAs: 'controller'
@@ -64,6 +64,33 @@ namespace SilverGlovezApp {
                 controller: SilverGlovezApp.Controllers.ManageController,
                 controllerAs: 'controller',
                  data: {
+                    requiresAuthentication: true
+                }
+            })
+            .state('delete', {
+                url: '/delete/:id',
+                templateUrl: '/ngApp/views/delete.html',
+                controller: SilverGlovezApp.Controllers.ManageDeleteController,
+                controllerAs: 'controller',
+                data: {
+                    requiresAuthentication: true
+                }
+            })
+            .state('edit', {
+                url: '/edit/:id',
+                templateUrl: '/ngApp/views/edit.html',
+                controller: SilverGlovezApp.Controllers.ManageEditController,
+                controllerAs: 'controller',
+                data: {
+                    requiresAuthentication: true
+                }
+            })
+            .state('details', {
+                url: '/details/:id',
+                templateUrl: '/ngApp/views/details.html',
+                controller: SilverGlovezApp.Controllers.PlayerDetailController,
+                controllerAs: 'controller',
+                data: {
                     requiresAuthentication: true
                 }
             })

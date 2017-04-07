@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using SilverGlovezApp.Data;
 
-namespace SilverGlovezApp.Data.Migrations
+namespace SilverGlovezApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170404170122_start")]
+    [Migration("20170407185528_start")]
     partial class start
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -187,6 +187,10 @@ namespace SilverGlovezApp.Data.Migrations
                     b.Property<string>("HighSchool");
 
                     b.Property<string>("LastName");
+
+                    b.Property<string>("Position");
+
+                    b.Property<string>("Team");
 
                     b.Property<int?>("TeamId");
 

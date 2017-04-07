@@ -23,9 +23,9 @@ namespace SilverGlovezApp.API
 
         // GET: api/values
         [HttpGet]
-        public IEnumerable<PlayerVM> Get()
+        public IEnumerable<Player> Get()
         {
-            var players = _db.Players.Select(t => new PlayerVM { LastName = t.LastName }).ToList();
+            var players = _db.Players.ToList();
             return players;
         }
 
@@ -53,6 +53,7 @@ namespace SilverGlovezApp.API
             {
                 _db.Players.Add(player);
                 _db.SaveChanges();
+                return Created("/player/" + player.LastName + player.FirstName, player);
             }
             else
             {
@@ -61,9 +62,12 @@ namespace SilverGlovezApp.API
                 original.LastName = player.LastName;
 
                 _db.SaveChanges();
+                
             }
             return Ok(player);
+
         }
+    
         [HttpPost ("{id}")]
         public IActionResult Post(int id, [FromBody]Player player)
         {
@@ -74,7 +78,7 @@ namespace SilverGlovezApp.API
         }
         private IActionResult Add(Player player)
         {
-            return Created("/player/" + player.Id, player);
+            return Created("/player/" + player.LastName + player.FirstName, player);
         }
 
         // PUT api/values/5
@@ -85,8 +89,16 @@ namespace SilverGlovezApp.API
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var player = _db.Players.FirstOrDefault(p => p.Id == id);
+            if(player == null)
+            {
+                return NotFound();
+            }
+            _db.Players.Remove(player);
+            _db.SaveChanges();
+            return Ok();
         }
     }
 }

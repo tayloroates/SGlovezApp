@@ -30,6 +30,7 @@ textarea {
 /* Carousel base class */
 .carousel {  
   /*max-width:1200px; THIS IS OPTIONAL (ANY SIZE YOU LIKE)*/
+  height: 400px;
   margin:0 auto 60px;
 }
 /* Declare heights because of positioning of img element */

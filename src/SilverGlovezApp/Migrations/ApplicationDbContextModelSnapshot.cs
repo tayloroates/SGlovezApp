@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using SilverGlovezApp.Data;
 
-namespace SilverGlovezApp.Data.Migrations
+namespace SilverGlovezApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -186,6 +186,10 @@ namespace SilverGlovezApp.Data.Migrations
                     b.Property<string>("HighSchool");
 
                     b.Property<string>("LastName");
+
+                    b.Property<string>("Position");
+
+                    b.Property<string>("Team");
 
                     b.Property<int?>("TeamId");
 
